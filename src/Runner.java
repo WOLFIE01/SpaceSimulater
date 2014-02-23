@@ -77,13 +77,6 @@ public class Runner {
 		ship3.addVelocity(new Vector(3.5 * 1000, Math.PI / 2));
 		space.addObject(ship3);
 		
-		Ship sskejin = new Ship(new Vector(66666 * 1000, 0), 100, 1000, Color.RED);
-		sskejin.addVelocity(new Vector(1.3 * 1000, Math.PI / 2));
-		space.addObject(sskejin);
-		
-		Ship sssam = new Ship(new Vector(69666 * 1000, 0), 100, 1000, Color.RED.darker().darker().darker());
-		sssam.addVelocity(new Vector(1.3 * 1000, Math.PI / 2));
-		space.addObject(sssam);
 		*/
 		
 		f.add(space);
